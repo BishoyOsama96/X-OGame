@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
-        android:text="Player 1"
+        android:text="@string/player_1"
         android:textSize="25sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="105dp"
         android:layout_marginTop="32dp"
-        android:text="Player  2"
+        android:text="@string/player_2"
         android:textSize="25sp"
         app:layout_constraintStart_toEndOf="@+id/Player_1"
         app:layout_constraintTop_toTopOf="parent" />

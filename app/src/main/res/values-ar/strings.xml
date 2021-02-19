@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="play">ابدء اللعب</string>
+    <string name="player_1">اللاعب الاول</string>
+    <string name="player_2">اللاعب الثانى</string>
+    <string name="score">النقاط</string>
+    <string name="new_game">لعبة جديده</string>
+    <string name="play_again">العب مرة اخرى</string>
+    <string name="bwins">\" يفوز!\"</string>
+    <string name="bDraw">يتعادل اللاعبان!</string>
+</resources>

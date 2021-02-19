@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:onClick="play"
-        android:text="Play"
+        android:text="@string/play"
         android:textColor="@color/black"
         android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"

@@ -166,7 +166,7 @@ public class PlayingActivity extends AppCompatActivity implements TextToSpeech.O
         p1s++;
         Toast.makeText(this, p1name + " wins!", Toast.LENGTH_SHORT).show();
         if (soundOn)
-            tts.speak(p1name+" wins!",TextToSpeech.QUEUE_FLUSH,null,null);
+            tts.speak(p1name+getString(R.string.bwins),TextToSpeech.QUEUE_FLUSH,null,null);
         YoYo.with(Techniques.RotateIn).duration(1500).playOn(p1score);
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
@@ -181,7 +181,7 @@ public class PlayingActivity extends AppCompatActivity implements TextToSpeech.O
         p2s++;
         Toast.makeText(this, p2name + " wins!", Toast.LENGTH_SHORT).show();
         if (soundOn)
-            tts.speak(p2name+" wins!",TextToSpeech.QUEUE_FLUSH,null,null);
+            tts.speak(p2name+getString(R.string.bwins),TextToSpeech.QUEUE_FLUSH,null,null);
         YoYo.with(Techniques.RotateIn).duration(1500).playOn(p2score);
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
@@ -194,7 +194,7 @@ public class PlayingActivity extends AppCompatActivity implements TextToSpeech.O
     private void drow() {
         Toast.makeText(this, "Draw!", Toast.LENGTH_SHORT).show();
         if (soundOn)
-            tts.speak("Two Players Is Draw!",TextToSpeech.QUEUE_FLUSH,null,null);
+            tts.speak(getString(R.string.bDraw),TextToSpeech.QUEUE_FLUSH,null,null);
         YoYo.with(Techniques.Shake).duration(1500).playOn(p1score);
         YoYo.with(Techniques.Shake).duration(1500).playOn(p2score);
     }

@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
         android:layout_marginTop="32dp"
-        android:text="Player 1"
+        android:text="@string/player_1"
         android:textSize="25sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
         android:layout_marginTop="32dp"
-        android:text="Player 2"
+        android:text="@string/player_2"
         android:textSize="25sp"
         app:layout_constraintStart_toEndOf="@+id/p1"
         app:layout_constraintTop_toTopOf="parent" />
@@ -51,12 +51,12 @@
         app:layout_constraintTop_toBottomOf="@+id/p2" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/score"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
-        android:text="Score"
+        android:text="@string/score"
         android:textSize="25sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/p1" />
@@ -214,7 +214,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginBottom="32dp"
         android:onClick="playAgain"
-        android:text="Play Again"
+        android:text="@string/play_again"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -225,7 +225,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:onClick="newGame"
-        android:text="New Game"
+        android:text="@string/new_game"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/playAgainbtn"

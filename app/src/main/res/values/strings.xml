@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">X-OGame</string>
+    <string name="app_name" translatable="false">X-OGame</string>
+    <string name="play">Play</string>
+    <string name="player_1">Player 1</string>
+    <string name="player_2">Player 2</string>
+    <string name="score">Score</string>
+    <string name="new_game">New Game</string>
+    <string name="play_again">Play Again</string>
+    <string name="bwins">\" wins!\"</string>
+    <string name="bDraw">Two Players Is Draw!</string>
 </resources>
